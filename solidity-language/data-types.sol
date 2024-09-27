@@ -11,6 +11,7 @@ contract myContract {
     uint[] public balances;
     string[] public clients;
     address[] public walletAddresses;
+    uint constant public MAX_TOKEN = 1000;
 
     mapping(address => uint) public map;
 
